@@ -4,10 +4,12 @@ Ref : https://github.com/tkarras/progressive_growing_of_gans
 
 I made the pggan function using TensorFlow as a class layer.
 
-#  minibatch STD
+
+# minibatch STD
 
 
-x = MinibatchSTDDEV()(input_d)
+x = MinibatchSTDDEV()(x)
+
 -------------------------------------------------------------------------
 #  conv layer 3x3 (use Weight Normalization)
 
